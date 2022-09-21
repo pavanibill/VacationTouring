@@ -1,4 +1,4 @@
-package com.rajendra.vacationtourapp.adapter;
+package com.example.vacationtourapp.adapter;
 
 import android.content.Context;
 import android.content.Intent;
@@ -11,9 +11,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.rajendra.vacationtourapp.DetailsActivity;
-import com.rajendra.vacationtourapp.R;
-import com.rajendra.vacationtourapp.model.RecentsData;
+import com.example.vacationtourapp.DetailsActivity;
+import com.example.vacationtourapp.R;
+import com.example.vacationtourapp.model.RecentsData;
 
 import java.util.List;
 

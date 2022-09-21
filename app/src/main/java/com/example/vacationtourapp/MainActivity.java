@@ -1,4 +1,4 @@
-package com.rajendra.vacationtourapp;
+package com.example.vacationtourapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -6,14 +6,13 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 
-import com.rajendra.vacationtourapp.adapter.RecentsAdapter;
-import com.rajendra.vacationtourapp.adapter.TopPlacesAdapter;
-import com.rajendra.vacationtourapp.model.RecentsData;
-import com.rajendra.vacationtourapp.model.TopPlacesData;
+import com.example.vacationtourapp.adapter.RecentsAdapter;
+import com.example.vacationtourapp.adapter.TopPlacesAdapter;
+import com.example.vacationtourapp.model.RecentsData;
+import com.example.vacationtourapp.model.TopPlacesData;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.RecursiveAction;
 
 public class MainActivity extends AppCompatActivity {
 

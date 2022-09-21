@@ -1,4 +1,4 @@
-package com.rajendra.vacationtourapp.model;
+package com.example.vacationtourapp.model;
 
 public class RecentsData {
 

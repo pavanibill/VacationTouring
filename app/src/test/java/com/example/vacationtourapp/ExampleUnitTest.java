@@ -1,4 +1,4 @@
-package com.rajendra.vacationtourapp;
+package com.example.vacationtourapp;
 
 import org.junit.Test;
 
