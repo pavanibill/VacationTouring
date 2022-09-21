@@ -69,7 +69,7 @@ public class RegisterActivity extends AppCompatActivity {
                                 userMap.put("Phone", phone);
                                 userMap.put("Password", password);
                                 userMap.put("userId", userId);
-                                usersRef.updateChildren(userMap).addOnCompleteListener(new OnCompleteListener() {
+                                usersRef.child(userId).updateChildren(userMap).addOnCompleteListener(new OnCompleteListener() {
                                     @Override
                                     public void onComplete(@NonNull Task task) {
                                         if (task.isSuccessful()) {
