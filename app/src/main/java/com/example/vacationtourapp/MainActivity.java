@@ -1,10 +1,10 @@
 package com.example.vacationtourapp;
 
+import android.os.Bundle;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
-import android.os.Bundle;
 
 import com.example.vacationtourapp.adapter.RecentsAdapter;
 import com.example.vacationtourapp.adapter.TopPlacesAdapter;
@@ -48,7 +48,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private  void setRecentRecycler(List<RecentsData> recentsDataList){
-
         recentRecycler = findViewById(R.id.recent_recycler);
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this, RecyclerView.HORIZONTAL, false);
         recentRecycler.setLayoutManager(layoutManager);
@@ -58,13 +57,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private  void setTopPlacesRecycler(List<TopPlacesData> topPlacesDataList){
-
         topPlacesRecycler = findViewById(R.id.top_places_recycler);
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this, RecyclerView.VERTICAL, false);
         topPlacesRecycler.setLayoutManager(layoutManager);
         topPlacesAdapter = new TopPlacesAdapter(this, topPlacesDataList);
         topPlacesRecycler.setAdapter(topPlacesAdapter);
-
     }
 
     // Hi all, today we are going to make a holiday tour app.
